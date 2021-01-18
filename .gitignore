@@ -1,0 +1,13 @@
+data/
+fastq/
+figures/
+final_submission/
+submissions/
+.DS_Store
+.DS_Store?
+*.gz
+*.tar
+.Trashes
+.RData
+.Rapp.history
+.Rhistory
