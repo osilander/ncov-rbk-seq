@@ -10,9 +10,10 @@ do
     # now we loop over all BC files having contaminating reads
     for F in 1 2 4 5
     do
-    # and loop again
+    # and loop again so that we're comparing all
       for S in 1 2 4 5
         do
+            # check that our loops numbers don't match so we aren't comparing to self
             if [ $F != $S ]
             then
                 # we cut out *only* the 2nd column from the *true* pass.txt and get rid of the header bit
